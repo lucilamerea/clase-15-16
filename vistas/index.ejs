@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%-include('./partials/meta.ejs')%>
+</head>
+<body>
+
+    <%-include('./partials/nav.ejs') %>
+
+    <h1><%= titulo %></h1>
+
+<div class="contenedor">
+
+    <% dataProductos.forEach((prod)=>{ %>
+        <div class="card">
+            <img src="<%= prod.imagen%>" alt="">
+            <p><%= prod.descripcion%> </p>
+            <a href="#">Mas Info</a>
+        </div>
+    <% }); %>
+
+</div>
+
+    <%-include('./partials/nav.ejs')%>
+</body>
+</html> 

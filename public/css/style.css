@@ -1,0 +1,41 @@
+/*ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style-type:none;
+
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.card{
+    border: 2px solid green;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}*/
+
+ul
+{
+    display: flex;
+    justify-content: 
+    space-between;
+}
+li
+{
+    list-style-type: none;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.card
+{
+    border: 2px solid green;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
